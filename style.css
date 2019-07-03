@@ -1,0 +1,61 @@
+body {
+	background: url("imagens/bg.jpg");
+	
+}
+
+#container {
+	width: 1000px;
+	margin: auto;
+	padding: 10px;
+	border: 2px solid #000;
+	border-radius: 30px;
+	background-color: #fff;
+	font-family: sans-serif;
+}
+
+h1 {
+	width: 1000px;
+	height: 283px;
+	background: #fff url("imagens/logo.jpg") no-repeat;
+}
+
+h1 spam {
+	display: none;
+}
+
+nav {
+	text-align: center;	
+}
+
+h2, a {
+	color: #930;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input, textarea {
+	width: 990px;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+textarea {
+	height: 300px;
+}
+
+#receita {
+	width: 996px;
+	height: 300px;
+	border: none;
+	resize: none;
+}
+
+footer {
+	text-align: center;
+}
